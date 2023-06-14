@@ -8,7 +8,7 @@ logging.basicConfig(level=logging.INFO, format='[%asctime]; %(message)s:')
 project_name = "TextSummarizer"
 
 list_of_files = [
-    ".github/workflows/.gitkeep",             # .github help in deployment of CI/Cd ML files; gitkeep creats a hidden file (empty)
+    ".github/workflows/.gitkeep",             # .github help in deployment of CI/Cd yaml files; gitkeep creats a hidden file (empty)
     f"src/{project_name}/__init__.py",        #  to create local package/file, you need to create a constructor file (__init__.py)
     f"src/{project_name}/conponents/__init__.py",
     f"src/{project_name}/utils/__init__.py",
