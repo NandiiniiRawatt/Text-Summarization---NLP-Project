@@ -1,8 +1,8 @@
 transformers
-transformers[sentencepeice]
+transformers[sentencepiece]
 datasets
-sacrebleu                 #a library to use row metrics   
-rouge_score
+sacrebleu 
+rouge_score 
 py7zr
 pandas
 nltk
@@ -11,13 +11,13 @@ PyYAML
 matplotlib
 torch
 notebook
-boto3                      # libraries to use (15-20)
+boto3
 mypy-boto3-s3
 python-box==6.0.2
 ensure==1.0.2
 fastapi==0.78.0
 uvicorn==0.18.3
-jinja2==3.1.2
+Jinja2==3.1.2
 -e .
 
 
